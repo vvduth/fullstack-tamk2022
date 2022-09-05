@@ -1,0 +1,17 @@
+1. React:
+- Is a js library help building and developing website easier and faster and recyling component and hooks.
+2. React components :
+- Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML. Components come in two types, Class components and Function components, in this tutorial we will concentrate on Function components.
+3. Single page application: 
+- A single-page application (SPA) is a web application or website that interacts with the user by dynamically rewriting the current web page with new data from the web server, instead of the default method of a web browser loading entire new pages
+4. JSX: 
+- It is called JSX, and it is a syntax extension to JavaScript. We recommend using it with React to describe what the UI should look like.
+5. Declarative programming (versus imperative programming)
+- In my own word, delacrative is more general while imperative is more specific/detailed
+- According to google
+- Declarative programming is a paradigm describing WHAT the program does, without explicitly specifying its control flow.
+- Imperative programming is a paradigm describing HOW the program should do something by explicitly specifying each instruction (or statement) step by step, which mutate the program's state.
+6. Async versus sync
+- Sync: Execute code lines by line without waiting for the above lines of code to be finished/success
+- Async: The latter line of code will wait until the above finished executing, this process will be done in term of promises 
+
