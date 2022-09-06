@@ -1,25 +1,26 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { thrillers,scifi, documentary } from './data/data';
+import MoviesList from './component/MoviesList';
+import { Movies } from './types/type';
+
+export interface MoviesConvert {
+  type: string , 
+  movies: Movies
+}
+
+const trillersConvert: MoviesConvert = {type: "Thriller", movies: thrillers} 
+const scifiConvert : MoviesConvert = {type: "Scifi", movies: scifi}
+const documentaryConvert : MoviesConvert = {type: "Documentary", movies: documentary}
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>Movies</h1>
+      <MoviesList thrillers= {trillersConvert} scifi={scifiConvert} documentary={documentaryConvert}/>
+    </>
   );
 }
 
