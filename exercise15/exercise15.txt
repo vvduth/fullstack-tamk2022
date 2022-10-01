@@ -1,0 +1,8 @@
+# I create  a messagin app
+* Tech stack: MongDB, Node JS, React JS, Socket.io (All were written is typecript)
+* Deployment: 
+    * Backend: heroku
+    * Frontend: Netlify
+* Live site : https://lustrous-cannoli-1419e7.netlify.app/ 
+* Link to the code :
+    * https://github.com/vvduth/hustler_uni_grql
